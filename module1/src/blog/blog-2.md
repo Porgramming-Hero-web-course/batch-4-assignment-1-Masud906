@@ -1,0 +1,3 @@
+In TypeScript, using async/await simplifies handling asynchronous operations compared to callbacks and promises. By marking a function as async, you can use await to pause execution until a promise resolves, making code look synchronous and much easier to read. Unlike promise chains, async/await eliminates nested .then calls, reducing complexity and improving readability.
+
+Error handling is also streamlined: try/catch blocks in async/await functions allow for centralized error handling, replacing the need for multiple .catch statements. This approach is especially beneficial in TypeScript, where type safety helps ensure that async operations are handled reliably, leading to cleaner and more maintainable code.
